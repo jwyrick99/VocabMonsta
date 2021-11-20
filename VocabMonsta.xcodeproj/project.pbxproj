@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC949B927436F6700C7D804 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC949B827436F6700C7D804 /* HomeView.swift */; };
+		0AC949BB274370BC00C7D804 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC949BA274370BC00C7D804 /* GradientBackground.swift */; };
 		0ADCC25D2743699C00BA6E78 /* VocabMonstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCC25C2743699C00BA6E78 /* VocabMonstaApp.swift */; };
 		0ADCC25F2743699C00BA6E78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADCC25E2743699C00BA6E78 /* ContentView.swift */; };
 		0ADCC2612743699F00BA6E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADCC2602743699F00BA6E78 /* Assets.xcassets */; };
 		0ADCC2642743699F00BA6E78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADCC2632743699F00BA6E78 /* Preview Assets.xcassets */; };
+		0ADCC26D27436D3A00BA6E78 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADCC26C27436D3A00BA6E78 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC949B827436F6700C7D804 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0AC949BA274370BC00C7D804 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		0ADCC2592743699C00BA6E78 /* VocabMonsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabMonsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADCC25C2743699C00BA6E78 /* VocabMonstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabMonstaApp.swift; sourceTree = "<group>"; };
 		0ADCC25E2743699C00BA6E78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ADCC2602743699F00BA6E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ADCC2632743699F00BA6E78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ADCC26C27436D3A00BA6E78 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			children = (
 				0ADCC25C2743699C00BA6E78 /* VocabMonstaApp.swift */,
 				0ADCC25E2743699C00BA6E78 /* ContentView.swift */,
+				0AC949BA274370BC00C7D804 /* GradientBackground.swift */,
+				0AC949B827436F6700C7D804 /* HomeView.swift */,
 				0ADCC2602743699F00BA6E78 /* Assets.xcassets */,
+				0ADCC26C27436D3A00BA6E78 /* Colors.xcassets */,
 				0ADCC2622743699F00BA6E78 /* Preview Content */,
 			);
 			path = VocabMonsta;
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADCC26D27436D3A00BA6E78 /* Colors.xcassets in Resources */,
 				0ADCC2642743699F00BA6E78 /* Preview Assets.xcassets in Resources */,
 				0ADCC2612743699F00BA6E78 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC949B927436F6700C7D804 /* HomeView.swift in Sources */,
+				0AC949BB274370BC00C7D804 /* GradientBackground.swift in Sources */,
 				0ADCC25F2743699C00BA6E78 /* ContentView.swift in Sources */,
 				0ADCC25D2743699C00BA6E78 /* VocabMonstaApp.swift in Sources */,
 			);
